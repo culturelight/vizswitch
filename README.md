@@ -34,6 +34,8 @@ The [instruction specification](INSTRUCTIONS.md) (v1.1) documents the architectu
 
 ## Try an idea
 
+**[Open VizSwitch as a ChatGPT plugin](https://chatgpt.com/plugins/plugin_d31d6cf050048191bc359b447e83a3f0?open_in_app)** (requires a ChatGPT account).
+
 Suggested starter requests, rather than the original prompts behind the examples:
 
 - “Turn this idea into a narrative infographic for young readers: we can learn from the past, act in the present, and influence possible futures.”
