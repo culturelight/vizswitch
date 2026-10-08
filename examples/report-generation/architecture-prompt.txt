@@ -1,0 +1,47 @@
+Use case: infographic-diagram
+Asset type: architecture illustration for a GitHub worked example
+Primary request: Create a clear landscape architecture diagram titled
+"Report Generation Architecture" for engineering onboarding.
+
+Layout & composition: Read left to right. Browser sits outside all service
+boundaries at left. A labeled Public service zone contains Web App in the
+middle. A labeled Private service zone occupies the right and contains API,
+PostgreSQL, Queue, and Worker. Place API toward the upper left of that zone,
+PostgreSQL upper right, Queue lower left, and Worker lower right. Use ample
+space for labels and route connections without passing through nodes.
+
+Components and grouping: Exactly six nodes named Browser, Web App, API,
+PostgreSQL, Queue, and Worker. Public service zone contains only Web App.
+Private service zone contains only API, PostgreSQL, Queue, and Worker.
+Browser is outside both boundaries. Use simple recognizable component icons.
+
+Flows/relationships: Exactly six single-headed arrows:
+1. Browser -> Web App, labeled "HTTPS".
+2. Web App -> API, labeled "HTTPS".
+3. API -> PostgreSQL, labeled "read/write".
+4. API -> Queue, labeled "enqueue report job".
+5. Queue -> Worker, labeled "deliver job".
+6. Worker -> PostgreSQL, labeled "read data / write report status".
+The last arrow points upward from Worker to PostgreSQL. Do not depict
+bidirectional arrows or add implied response paths.
+
+Visual hierarchy: The component names and directed arrows are primary.
+Zone headings and flow labels are secondary but fully legible. Show the
+request path in teal and the background job path in burgundy. Use charcoal
+text on white with lightly tinted zone backgrounds and thin zone outlines.
+
+Labeling rules: Render the title, six component names, two zone names, and
+six flow labels verbatim. Avoid vendor logos, abbreviations beyond API and
+HTTPS, tiny annotations, or numerical scores.
+
+Style constraints: Clean flat technical illustration, consistent line
+weights, crisp arrowheads, restrained colors, generous whitespace. All text
+must fit without overlap. No decorative 3D objects or unrelated captions.
+
+Do not change: Do not add, remove, or rename the six components. Preserve
+both zone boundaries and their memberships. Preserve exactly the six listed
+flows, directions, and labels. Do not add cloud providers, authentication
+services, security guarantees, metrics, or extra connections.
+
+Assumptions: This is an illustrative system supplied for the example.
+The zone labels describe logical grouping, not verified network isolation.
