@@ -30,7 +30,7 @@ An educational infographic combining daily steps, comparisons, and a timeline.
 4. Review the structured prompt: layout, content, relationships, labels, style, and assumptions.
 5. Confirm before image generation, then check the resulting visual.
 
-The [reference instruction specification](INSTRUCTIONS.md) documents the architecture-oriented workflow that informed this project, including six style families, meaning-preservation rules, and a confirmation step. It is not a verified export of the live GPT configuration.
+The [instruction specification](INSTRUCTIONS.md) (v1.1) documents the architecture-oriented workflow behind this project, including six style families, meaning-preservation rules, and a confirmation step.
 
 ## Try an idea
 
