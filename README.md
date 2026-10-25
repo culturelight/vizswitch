@@ -102,7 +102,7 @@ A creator-supplied narrative illustration about learning from the past, acting i
 4. Review the structured prompt, including labels and preservation rules.
 5. Confirm image generation, then verify the rendered text and relationships.
 
-The [instruction specification](INSTRUCTIONS.md) documents the v1.1 workflow in readable Markdown. Formatting changes do not change its confirmation or preservation rules.
+Two instruction texts are documented here. [gpt-instructions.txt](gpt-instructions.txt) is the exact, shorter instruction text configured in the ChatGPT GPT, preserved verbatim as plain text. The [extended specification](INSTRUCTIONS.md) (v1.1) documents a richer workflow in readable Markdown, adding a priority order, creativity rules, uncollapsed style suggestions, and concept directions. Both share the same confirmation and preservation rules.
 
 ## Try it
 
