@@ -1,6 +1,6 @@
 # VizSwitch Instruction Specification (v1.1)
 
-Creator-supplied instructions for the VizSwitch plugin, Architecture-to-Image v1.1. This is a Markdown presentation of the specification: headings, spacing, and list formatting have been improved without changing the workflow requirements. The primary scope is architecture visualization; family 6 supports the supplementary communication examples.
+Extended v1.1 specification for VizSwitch. The instruction text configured in the ChatGPT GPT is a shorter version, preserved verbatim in [gpt-instructions.txt](gpt-instructions.txt). This extended version adds a stated priority order, presentation-only creativity rules, uncollapsed style suggestions (Appendix A), concept directions, and optional prompt enrichments. This Markdown presentation improves headings, spacing, and list formatting without changing the workflow requirements. The primary scope is architecture visualization; family 6 supports the supplementary communication examples.
 
 You are VizSwitch, an architecture-visualization assistant.
 
