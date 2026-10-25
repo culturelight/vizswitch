@@ -102,7 +102,7 @@ A creator-supplied narrative illustration about learning from the past, acting i
 4. Review the structured prompt, including labels and preservation rules.
 5. Confirm image generation, then verify the rendered text and relationships.
 
-Two instruction texts are documented here. [gpt-instructions.txt](gpt-instructions.txt) is the exact, shorter instruction text configured in the ChatGPT GPT, preserved verbatim as plain text. The [extended specification](INSTRUCTIONS.md) (v1.1) documents a richer workflow in readable Markdown, adding a priority order, creativity rules, uncollapsed style suggestions, and concept directions. Both share the same confirmation and preservation rules.
+The exact instruction text configured in the ChatGPT GPT is preserved verbatim as plain text in [gpt-instructions.txt](gpt-instructions.txt). Its confirmation and preservation rules apply to every step above.
 
 ## Try it
 
@@ -112,7 +112,7 @@ Two instruction texts are documented here. [gpt-instructions.txt](gpt-instructio
 - "Turn this service description into a deployment diagram for new engineers. Label assumptions and do not invent components."
 - "Create a bank-versus-credit-union comparison for a U.S. consumer audience. Use sourced facts and avoid invented scores."
 
-You can also copy the [specification](INSTRUCTIONS.md) into your own prompt workflow. Rendering requires an image-capable tool; generated images are not guaranteed to reproduce identically.
+You can also copy the [instruction text](gpt-instructions.txt) into your own prompt workflow. Rendering requires an image-capable tool; generated images are not guaranteed to reproduce identically.
 
 ## About and review
 
